@@ -4,12 +4,6 @@
 
 No slop. No overwhelm. No anxiety.
 
-```
-dekh-bhai explain what's going on in this ticket
-```
-
-Say `undekh-bhai` when you want the normal tone back.
-
 ## Usage
 
 Same prompt, same facts, same fix. Only the explaining changes.
@@ -43,6 +37,9 @@ Same prompt, same facts, same fix. Only the explaining changes.
 + src/wallet.ts:42. Ek time pe ek banda andar.
 ```
 
+<details>
+<summary><strong>One more, where the answer is "do nothing"</strong></summary>
+
 **Without dekh-bhai**
 
 ```diff
@@ -71,36 +68,54 @@ Same prompt, same facts, same fix. Only the explaining changes.
 + "8.4.31" } daal de, 30 second ka kaam.
 ```
 
+</details>
+
 More in [`examples.md`](skills/dekh-bhai/examples.md).
 
-## Install
+## Install (30 seconds)
 
-### Claude Code
+```bash
+npx skills@latest add dewanshparashar/dekh-bhai
+```
+
+That is it. It covers Claude Code, Codex, Cursor, Gemini CLI, Copilot, OpenCode, Zed, Amp, Droid and a dozen others, and asks which ones you want. Then start any message with `dekh-bhai`.
+
+<details>
+<summary><strong>Claude Code, as a plugin</strong></summary>
 
 ```
 /plugin marketplace add dewanshparashar/dekh-bhai
 /plugin install dekh-bhai@dekh-bhai
 ```
 
-Then `/dekh-bhai`, `/dekh-bro` and `/undekh-bhai`.
+Gives you real slash commands: `/dekh-bhai`, `/dekh-bro`, `/undekh-bhai`.
 
-### Codex CLI
+</details>
 
-```bash
-git clone https://github.com/dewanshparashar/dekh-bhai.git
-mkdir -p ~/.codex/skills
-ln -s "$PWD/dekh-bhai/skills/"* ~/.codex/skills/
-```
+<details>
+<summary><strong>Claude app and ChatGPT</strong></summary>
 
-Restart Codex, confirm with `/skills`, then use `$dekh-bhai`. Some builds read `~/.agents/skills` instead, so link there if it does not show up.
+Run `./scripts/package.sh` and upload the zips from `dist/` in skill settings. There are no slash commands in the apps, so ask for it by name: "use dekh-bhai mode".
 
-### Claude app and ChatGPT
+</details>
 
-Run `./scripts/package.sh` and upload the zips from `dist/` in skill settings. There is no slash command in the apps, so ask for it by name: "use dekh-bhai mode".
-
-### Any other agent
+<details>
+<summary><strong>Anything else</strong></summary>
 
 Paste [`skills/dekh-bhai/SKILL.md`](skills/dekh-bhai/SKILL.md) into the system prompt, `AGENTS.md`, or a Cursor rule. Nothing in it is agent-specific.
+
+</details>
+
+## Reference
+
+| Skill | What it does |
+| --- | --- |
+| [`dekh-bhai`](skills/dekh-bhai/SKILL.md) | Explains the thing. Short, one analogy that matches the real mechanics, exact command at the end. |
+| [`dekh-bro`](skills/dekh-bro/SKILL.md) | Same skill, other name. Use whichever you say out loud. |
+| [`undekh-bhai`](skills/undekh-bhai/SKILL.md) | Back to the normal tone. |
+
+> [!TIP]
+> Keep `undekh-bhai` in reach. The tone is for explaining things to you in chat, never for anything you commit or send.
 
 ## What it will not do
 
