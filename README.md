@@ -1,4 +1,17 @@
-# dekh-bhai
+# dekh-bhai / dekh-bro
+
+```
+          __
+      __ |  | __
+     |  ||  ||  | __            dekh bhai
+  __ |  ||  ||  ||  |           ---------
+ |  ||  ||  ||  ||  |           ruk, main samjhata hoon
+ |  ||  ||  ||  ||  |
+ |                  |
+ |                  |
+  \                /
+   \______________/
+```
 
 Makes your coding agent explain things like the friend who got you through the exam: short, Hinglish, one analogy, straight to what you have to do.
 
@@ -12,7 +25,7 @@ Mental model: do haath ek cheez pe ek saath, matlab gadbad.
 Tu bas updateBalance() pe lock laga de, src/wallet.ts:42.
 ```
 
-`dekh-bhai` turns it on, `undekh-bhai` turns it off.
+`dekh-bhai` or `dekh-bro` turns it on, `undekh-bhai` turns it off. Same thing, use whichever you type faster.
 
 Chat only. Commits, PRs, code and docs stay in normal English, so nobody reviews a PR written in slang.
 
@@ -46,5 +59,7 @@ Paste [`skills/dekh-bhai/SKILL.md`](skills/dekh-bhai/SKILL.md) into the system p
 ## Editing
 
 Tone lives in [`SKILL.md`](skills/dekh-bhai/SKILL.md), extra examples in [`examples.md`](skills/dekh-bhai/examples.md). Two rules: the analogy must match the real mechanics, and short means fewer words, never fewer facts.
+
+There is a drawn version of the hand in [`assets/`](assets/dekh-bhai.svg) if you want it as the repo social preview.
 
 MIT
