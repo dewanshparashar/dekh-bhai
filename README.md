@@ -76,11 +76,19 @@ More in [`examples.md`](skills/dekh-bhai/examples.md).
 
 ## Install (30 seconds)
 
+Ask your agent. It installs itself:
+
+> Install the dekh-bhai skill from github.com/dewanshparashar/dekh-bhai, then show me how to use it.
+
+Or run it yourself:
+
 ```bash
 npx skills@latest add dewanshparashar/dekh-bhai
 ```
 
-That is it. It covers Claude Code, Codex, Cursor, Gemini CLI, Copilot, OpenCode, Zed, Amp, Droid and a dozen others, and asks which ones you want. Then start any message with `/dekh-bhai`. On agents with no slash commands, plain `dekh-bhai` at the front of the message works the same.
+Add `--all -g` to take all three skills, for every agent, globally, with no questions asked.
+
+Either way covers Claude Code, Codex, Cursor, Gemini CLI, Copilot, OpenCode, Zed, Amp, Droid and a dozen others. Then start any message with `/dekh-bhai`. On agents with no slash commands, plain `dekh-bhai` at the front of the message works the same.
 
 <details>
 <summary><strong>Claude Code, as a plugin</strong></summary>
