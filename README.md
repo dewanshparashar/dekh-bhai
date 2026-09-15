@@ -1,6 +1,8 @@
 # dekh-bhai / dekh-bro
 
-**Start your question with `/dekh-bhai` or `/dekh-bro`.** Your coding agent then explains it like the friend who taught you the whole syllabus the night before the exam.
+**Start your question with `/dekh-bhai` or `/dekh-bro`.** Your coding agent then explains it in Hinglish, like the friend who taught you the whole syllabus the night before the exam.
+
+Hindi + English + the slang you actually speak. A gnarly concept or an unfamiliar codebase lands faster in the language you think in, and it stays landed.
 
 No slop. No overwhelm. No anxiety.
 
