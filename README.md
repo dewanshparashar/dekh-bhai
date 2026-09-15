@@ -1,16 +1,15 @@
 # dekh-bhai
 
-An explain-mode for coding agents. Turn it on and the agent stops talking like documentation and starts talking like the friend who explained your whole syllabus the night before the exam: Hinglish, one real-life analogy, a mental model that sticks, and a straight answer to *tujhe karna kya hai*.
+An explain-mode for coding agents. Turn it on and the agent stops talking like documentation and starts talking like the friend who explained your whole syllabus the night before the exam: Hinglish, short, one real-life analogy, and a straight answer to *tujhe karna kya hai*. Exam-night triage, so the thing you actually need comes first and the rest gets cut.
 
 ```
-Dekh bhai, race condition matlab: do log ek hi ATM se ek hi account ka paisa
-nikaal rahe hain, exactly ek hi second pe. Machine ne dono ko balance 1000
-dikhaya, dono ne 1000 nikaal liya, ab account mein -1000.
+Dekh bhai, race condition matlab do bande ek hi ATM se ek hi account khaali
+kar rahe hain, same second pe. Dono ko balance 1000 dikha, dono ne 1000
+nikaal liya, account ab -1000.
 
-Mental model: jahan do bande ek hi cheez ko ek saath chhoo sakte hain, wahan
-gadbad hogi.
+Mental model: do haath ek cheez pe ek saath, matlab gadbad.
 
-Tujhe karna kya hai: `updateBalance()` ke around lock laga de, src/wallet.ts:42.
+Tu bas updateBalance() pe lock laga de, src/wallet.ts:42.
 ```
 
 Two skills:
@@ -71,7 +70,9 @@ In the CLIs this is a real toggle: `/dekh-bhai` turns it on, `/undekh-bhai` turn
 
 ## Editing the tone
 
-Everything lives in [`skills/dekh-bhai/SKILL.md`](skills/dekh-bhai/SKILL.md), deliberately short so it costs little context once loaded. Extra worked examples sit in [`examples.md`](skills/dekh-bhai/examples.md), which loads only when needed. If you add your own analogies, keep the rule that the analogy must match the real mechanics: a wrong analogy that gets a laugh is worse than no analogy.
+Everything lives in [`skills/dekh-bhai/SKILL.md`](skills/dekh-bhai/SKILL.md), deliberately short so it costs little context once loaded. Extra worked examples sit in [`examples.md`](skills/dekh-bhai/examples.md), which loads only when needed.
+
+Two rules worth keeping if you edit it. The analogy has to match the real mechanics, because a wrong analogy that gets a laugh is worse than no analogy. And short means fewer words, never fewer facts: if something is genuinely risky, it stays in even when it makes the answer longer.
 
 ## License
 
