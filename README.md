@@ -1,19 +1,22 @@
 # dekh-bhai / dekh-bro
 
+Makes your coding agent help you understand things like the friend who made you study the entire syllabus the night before the exam.
+
 ```
-          __
-      __ |  | __
-     |  ||  ||  | __            dekh bhai
-  __ |  ||  ||  ||  |           ---------
- |  ||  ||  ||  ||  |           ruk, main samjhata hoon
- |  ||  ||  ||  ||  |
- |                  |
- |                  |
-  \                /
-   \______________/
+                  .-""""""-.
+                .'          '.
+     _  _  _   /              \
+    | || || | |                |
+  _ | || || | |    .-.    .-.  |        dekh bhai
+ |  | || || | |                |        ---------
+ |          | |     .-''-.     |        ruk, main samjhata hoon
+ |          | |                |
+  \        /  \              /
+   '------'    '.          .'
+                  '-.______.-'
 ```
 
-Makes your coding agent explain things like the friend who got you through the exam: short, Hinglish, one analogy, straight to what you have to do.
+Short, Hinglish, one analogy, straight to what you have to do.
 
 ```
 Dekh bhai, race condition matlab do bande ek hi ATM se ek hi account khaali

@@ -1,19 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="dekh bhai / dekh bro: a raised hand saying ruk, main samjhata hoon">
-  <rect width="900" height="300" fill="#ffffff"/>
-  <rect x="6" y="6" width="888" height="288" fill="none" stroke="#111111" stroke-width="5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="dekh bhai / dekh bro: an unimpressed face holding up a hand">
+  <rect width="900" height="340" fill="#f2d06b"/>
 
-  <g stroke="#111111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="#f6c445">
-    <rect x="70" y="128" width="34" height="96" rx="17" transform="rotate(-32 87 176)"/>
-    <rect x="113" y="60" width="36" height="150" rx="18"/>
-    <rect x="152" y="44" width="36" height="166" rx="18"/>
-    <rect x="191" y="56" width="36" height="154" rx="18"/>
-    <rect x="230" y="80" width="36" height="130" rx="18"/>
-    <path d="M104 168 h170 a34 34 0 0 1 34 34 v30 a58 58 0 0 1 -58 58 h-122 a34 34 0 0 1 -34 -34 z"/>
+  <g stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="200" cy="170" r="130" fill="#ffffff"/>
+    <path d="M210 128 q22 -26 44 0" fill="none"/>
+    <path d="M270 128 q22 -26 44 0" fill="none"/>
+    <path d="M214 246 q36 -36 72 0" fill="none"/>
+
+    <rect x="28" y="214" width="118" height="82" rx="30" fill="#ffffff"/>
+    <path d="M10 262 V216 a11 11 0 0 1 22 0 V262" fill="#ffffff" transform="rotate(-32 21 240)"/>
+    <path d="M38 260 V130 a13 13 0 0 1 26 0 V260" fill="#ffffff"/>
+    <path d="M67 260 V116 a13 13 0 0 1 26 0 V260" fill="#ffffff"/>
+    <path d="M96 260 V122 a13 13 0 0 1 26 0 V260" fill="#ffffff"/>
+    <path d="M125 260 V140 a13 13 0 0 1 26 0 V260" fill="#ffffff"/>
   </g>
 
   <g fill="#111111" font-family="'Comic Sans MS','Chalkboard SE','Marker Felt',cursive">
-    <text x="360" y="126" font-size="70">dekh bhai</text>
-    <text x="360" y="192" font-size="46" fill="#7a7a7a">/ dekh bro</text>
-    <text x="362" y="248" font-size="27" fill="#444444">ruk, main samjhata hoon</text>
+    <text x="360" y="150" font-size="72">dekh bhai</text>
+    <text x="360" y="216" font-size="46" fill="#6b5a22">/ dekh bro</text>
+    <text x="362" y="272" font-size="27" fill="#4a3f18">ruk, main samjhata hoon</text>
   </g>
 </svg>
