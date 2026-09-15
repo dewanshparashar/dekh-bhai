@@ -16,17 +16,29 @@ Makes your coding agent help you understand things like the friend who made you 
                   '-.______.-'
 ```
 
-Short, Hinglish, one analogy, straight to what you have to do.
+Short, Hinglish, one analogy, straight to what you have to do. Same question, same facts, both answers correct:
 
-```
-Dekh bhai, race condition matlab do bande ek hi ATM se ek hi account khaali
-kar rahe hain, same second pe. Dono ko balance 1000 dikha, dono ne 1000
-nikaal liya, account ab -1000.
+<table>
+<tr><th width="50%">Before</th><th width="50%">After</th></tr>
+<tr valign="top">
+<td>
+
+This is a race condition. Two concurrent requests read the account balance before either of them writes, so both observe a balance of 1000 and both proceed with a withdrawal of 1000. The second write overwrites the first rather than accounting for it, which leaves the balance at -1000.
+
+To fix it you need to serialize access to the critical section. The usual options are a database-level lock (`SELECT ... FOR UPDATE`), an application-level mutex, or an atomic conditional update. Which one is appropriate depends on whether your deployment runs a single process or several.
+
+</td>
+<td>
+
+Dekh bhai, race condition matlab do bande ek hi ATM se ek hi account khaali kar rahe hain, same second pe. Dono ko balance 1000 dikha, dono ne 1000 nikaal liya, account ab -1000.
 
 Mental model: do haath ek cheez pe ek saath, matlab gadbad.
 
-Tu bas updateBalance() pe lock laga de, src/wallet.ts:42.
-```
+Tu bas `updateBalance()` pe lock laga de, `src/wallet.ts:42`.
+
+</td>
+</tr>
+</table>
 
 `dekh-bhai` or `dekh-bro` turns it on, `undekh-bhai` turns it off. Same thing, use whichever you type faster.
 
