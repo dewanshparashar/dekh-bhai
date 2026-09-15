@@ -1,6 +1,6 @@
 # dekh-bhai / dekh-bro
 
-**Start your question with `dekh-bhai` or `dekh-bro`.** Your coding agent then explains it like the friend who taught you the whole syllabus the night before the exam.
+**Start your question with `/dekh-bhai` or `/dekh-bro`.** Your coding agent then explains it like the friend who taught you the whole syllabus the night before the exam.
 
 No slop. No overwhelm. No anxiety.
 
@@ -8,7 +8,7 @@ No slop. No overwhelm. No anxiety.
 
 Same prompt, same facts, same fix. Only the explaining changes.
 
-**Without dekh-bhai**
+**Without `/dekh-bhai`** (Eww..)
 
 ```diff
 @@ explain what's going on in this ticket @@
@@ -22,10 +22,10 @@ Same prompt, same facts, same fix. Only the explaining changes.
 -                                                       [ 9 more lines ]
 ```
 
-**With dekh-bhai**
+**With `/dekh-bhai`**
 
 ```diff
-@@ dekh-bhai explain what's going on in this ticket @@
+@@ /dekh-bhai explain what's going on in this ticket @@
 
 + Dekh bhai, ticket keh raha hai balance minus mein ja raha hai. Do bande ek hi
 + ATM se ek hi account khaali kar rahe hain, same second pe. Dono ko 1000 dikha,
@@ -40,7 +40,7 @@ Same prompt, same facts, same fix. Only the explaining changes.
 <details>
 <summary><strong>One more, where the answer is "do nothing"</strong></summary>
 
-**Without dekh-bhai**
+**Without `/dekh-bhai`** (Eww..)
 
 ```diff
 @@ do I need to do anything about this dependabot alert? @@
@@ -53,10 +53,10 @@ Same prompt, same facts, same fix. Only the explaining changes.
 -                                                      [ 14 more lines ]
 ```
 
-**With dekh-bhai**
+**With `/dekh-bhai`**
 
 ```diff
-@@ dekh-bhai do I need to do anything about this dependabot alert? @@
+@@ /dekh-bhai do I need to do anything about this dependabot alert? @@
 
 + Dekh bhai, isme tujhe kuch nahi karna. Ye postcss wala alert sirf build ke
 + time ka hai, prod bundle mein jaata hi nahi. Ghar ka darwaza khula nahi hai,
@@ -78,7 +78,7 @@ More in [`examples.md`](skills/dekh-bhai/examples.md).
 npx skills@latest add dewanshparashar/dekh-bhai
 ```
 
-That is it. It covers Claude Code, Codex, Cursor, Gemini CLI, Copilot, OpenCode, Zed, Amp, Droid and a dozen others, and asks which ones you want. Then start any message with `dekh-bhai`.
+That is it. It covers Claude Code, Codex, Cursor, Gemini CLI, Copilot, OpenCode, Zed, Amp, Droid and a dozen others, and asks which ones you want. Then start any message with `/dekh-bhai`. On agents with no slash commands, plain `dekh-bhai` at the front of the message works the same.
 
 <details>
 <summary><strong>Claude Code, as a plugin</strong></summary>
