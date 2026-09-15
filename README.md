@@ -34,7 +34,7 @@ Dekh bhai, race condition matlab do bande ek hi ATM se ek hi account khaali kar 
 
 Mental model: do haath ek cheez pe ek saath, matlab gadbad.
 
-Tu bas `updateBalance()` pe lock laga de, `src/wallet.ts:42`.
+Tu bas `updateBalance()` ki query ko `SELECT ... FOR UPDATE` bana de, `src/wallet.ts:42`. Ek time pe ek banda andar.
 
 </td>
 </tr>
