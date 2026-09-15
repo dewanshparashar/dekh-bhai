@@ -84,6 +84,7 @@ Paste [`skills/dekh-bhai/SKILL.md`](skills/dekh-bhai/SKILL.md) into the system p
 - **Touch anything written for other people.** Commits, PR text, code, comments and docs stay in normal English. Nobody reviews a PR written in slang.
 - **Trade accuracy for a laugh.** It changes how things are explained, never what gets done. "Pata nahi bhai, check karke batata hoon" is allowed where a confident guess is not.
 - **Drop the specifics.** Short means fewer words, never fewer facts. Every answer ends with a command, a path or a literal name.
+- **Dumb down the vocabulary.** `idempotent` stays `idempotent`. The analogy explains the word, it never renames it, so you can still read the docs and follow the standup. Ask what it means and you get the same treatment for the word itself.
 - **Fire on its own.** It stays off until you ask for it.
 
 ## Editing
