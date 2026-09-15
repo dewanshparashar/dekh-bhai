@@ -1,12 +1,20 @@
 # dekh-bhai / dekh-bro
 
-Makes your coding agent help you understand things like the friend who made you study the entire syllabus the night before the exam.
+**Start your question with `dekh-bhai` or `dekh-bro`.** Your coding agent then explains it like the friend who taught you the whole syllabus the night before the exam.
 
-Short, Hinglish, one analogy that actually maps to the mechanics, and the exact command at the end. `dekh-bhai` or `dekh-bro` turns it on, `undekh-bhai` turns it off.
+No slop. No overwhelm. No anxiety.
+
+```
+dekh-bhai explain what's going on in this ticket
+```
+
+Say `undekh-bhai` when you want the normal tone back.
 
 ## Usage
 
-Same prompt, same facts, same fix.
+Same prompt, same facts, same fix. Only the explaining changes.
+
+**Without dekh-bhai**
 
 ```diff
 @@ explain what's going on in this ticket @@
@@ -20,8 +28,10 @@ Same prompt, same facts, same fix.
 -                                                       [ 9 more lines ]
 ```
 
+**With dekh-bhai**
+
 ```diff
-@@ /dekh-bhai explain what's going on in this ticket @@
+@@ dekh-bhai explain what's going on in this ticket @@
 
 + Dekh bhai, ticket keh raha hai balance minus mein ja raha hai. Do bande ek hi
 + ATM se ek hi account khaali kar rahe hain, same second pe. Dono ko 1000 dikha,
@@ -33,10 +43,23 @@ Same prompt, same facts, same fix.
 + src/wallet.ts:42. Ek time pe ek banda andar.
 ```
 
-Sometimes the honest answer is that there is nothing to do, and you get that in one line instead of four paragraphs:
+**Without dekh-bhai**
 
 ```diff
-@@ /dekh-bhai do I need to do anything about this dependabot alert? @@
+@@ do I need to do anything about this dependabot alert? @@
+
+- This advisory affects postcss versions prior to 8.4.31 and is categorised as
+- moderate severity. Reviewing the dependency graph, postcss is reachable only
+- through your build toolchain and is therefore not present in the runtime
+- bundle shipped to end users. The theoretical attack vector requires an...
+-
+-                                                      [ 14 more lines ]
+```
+
+**With dekh-bhai**
+
+```diff
+@@ dekh-bhai do I need to do anything about this dependabot alert? @@
 
 + Dekh bhai, isme tujhe kuch nahi karna. Ye postcss wala alert sirf build ke
 + time ka hai, prod bundle mein jaata hi nahi. Ghar ka darwaza khula nahi hai,

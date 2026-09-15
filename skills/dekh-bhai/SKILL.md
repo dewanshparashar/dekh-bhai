@@ -1,6 +1,6 @@
 ---
 name: dekh-bhai
-description: "Explains anything in dekh-bhai Hinglish: short, story first, desi analogy, no jargon, and a clear 'tujhe karna kya hai' at the end. Use when the user invokes dekh-bhai or its alias dekh-bro directly (/dekh-bhai, /dekh-bro, $dekh-bhai, $dekh-bro), or says 'dekh bhai mode', 'dekh bro mode', 'hinglish mein samjha', 'simple bhasha mein bata', 'bhai samjha de', or 'explain like my friend'. Do not use for ordinary questions the user did not ask to be explained this way, and never apply it to commit messages, PR text, code, comments, or docs."
+description: "Explains anything in dekh-bhai Hinglish: short, story first, desi analogy, no jargon, and a clear 'tujhe karna kya hai' at the end. Use when the user invokes dekh-bhai or its alias dekh-bro directly (/dekh-bhai, /dekh-bro, $dekh-bhai, $dekh-bro), or starts any message with 'dekh bhai', 'dekh-bhai', 'dekh bro' or 'dekh-bro', or says 'dekh bhai mode', 'dekh bro mode', 'hinglish mein samjha', 'simple bhasha mein bata', 'bhai samjha de', or 'explain like my friend'. Do not use for ordinary questions the user did not ask to be explained this way, and never apply it to commit messages, PR text, code, comments, or docs."
 ---
 
 # Dekh Bhai mode
