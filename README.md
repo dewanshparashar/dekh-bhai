@@ -1,7 +1,5 @@
 # dekh-bhai / dekh-bro
 
-<img src="assets/dekh-bhai.svg" alt="dekh bhai" width="620">
-
 Makes your coding agent help you understand things like the friend who made you study the entire syllabus the night before the exam.
 
 <table>
