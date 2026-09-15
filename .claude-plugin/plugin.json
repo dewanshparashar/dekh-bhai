@@ -1,0 +1,11 @@
+{
+  "name": "dekh-bhai",
+  "description": "Explain anything in dekh-bhai Hinglish: stories, desi analogies, zero jargon, and a clear 'tujhe karna kya hai' at the end. /dekh-bhai turns it on, /undekh-bhai turns it off.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Dewansh Parashar",
+    "url": "https://github.com/dewanshparashar"
+  },
+  "homepage": "https://github.com/dewanshparashar/dekh-bhai",
+  "keywords": ["hinglish", "explain", "tone", "learning", "analogies"]
+}

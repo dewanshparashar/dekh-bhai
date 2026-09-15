@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dekh-bhai",
+  "description": "Hinglish explain-mode for Claude Code",
+  "owner": {
+    "name": "Dewansh Parashar",
+    "url": "https://github.com/dewanshparashar"
+  },
+  "plugins": [
+    {
+      "name": "dekh-bhai",
+      "description": "Explain anything in dekh-bhai Hinglish: stories, desi analogies, zero jargon, and a clear 'tujhe karna kya hai' at the end. /dekh-bhai turns it on, /undekh-bhai turns it off.",
+      "author": {
+        "name": "Dewansh Parashar"
+      },
+      "category": "productivity",
+      "source": "./",
+      "homepage": "https://github.com/dewanshparashar/dekh-bhai"
+    }
+  ]
+}
