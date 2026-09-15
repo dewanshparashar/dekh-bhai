@@ -1,6 +1,6 @@
 {
   "name": "dekh-bhai",
-  "description": "Explain anything in dekh-bhai Hinglish: stories, desi analogies, zero jargon, and a clear 'tujhe karna kya hai' at the end. /dekh-bhai turns it on, /undekh-bhai turns it off.",
+  "description": "Explain anything in dekh-bhai Hinglish: short, one desi analogy that matches the real mechanics, and the exact command at the end. /dekh-bhai turns it on, /undekh-bhai turns it off.",
   "version": "0.1.0",
   "author": {
     "name": "Dewansh Parashar",
