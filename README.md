@@ -2,7 +2,7 @@
 
 **Start your question with `/dekh-bhai` or `/dekh-bro`.** Your coding agent then explains it in Hinglish, like the bro who taught you the whole syllabus the night before the exam.
 
-Hindi + English + the slang you actually speak. EXTREMELY EFFECTIVE for understanding things as a Hooman.
+Hindi + English + the slang you actually speak. EXTREMELY EFFECTIVE for understanding things as a Desi Hooman.
 
 No slop. No overwhelm. No anxiety.
 
